@@ -1,0 +1,26 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.pidgey {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.spearow {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.rattata {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.ekans {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
